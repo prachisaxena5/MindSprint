@@ -7,6 +7,10 @@ A web-based gamified quiz application built with React, featuring API-based ques
 
 ## Demo
 ![image alt](https://github.com/prachisaxena5/MindSprint/blob/4129071ca3b7b34d8c21a41e390f304d0c584bf9/Screenshot%20(3).png)
+![image alt](https://github.com/prachisaxena5/MindSprint/blob/dd15e8f0ecd68d87b2571c7a62e69f41d85b5e2b/Screenshot%20(5).png)
+![image alt](https://github.com/prachisaxena5/MindSprint/blob/dd15e8f0ecd68d87b2571c7a62e69f41d85b5e2b/Screenshot%20(6).png)
+![image alt](
+https://github.com/prachisaxena5/MindSprint/blob/dd15e8f0ecd68d87b2571c7a62e69f41d85b5e2b/Screenshot%20(7).png)
 
 
 ## Features
