@@ -1,0 +1,68 @@
+.front{
+    position: relative;
+    height:80vh;
+}
+.ques-logo{
+    height:80px;
+}
+.navbar{
+    display:flex;
+    /* opacity:0; */
+    align-items: center;
+    animation: slideFromTop 1s ease-out;
+}
+@keyframes slideFromTop {
+    from {
+      transform: translateY(-100px); /* Starts above */
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .Body{
+    font-size: 3vw;
+    opacity:0;
+    animation:slidefrombottom 1s ease-in-out;
+    animation-delay:1s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    margin: auto;
+   }
+    @keyframes slidefrombottom{
+       from{
+           transform:translateY(100px);
+           opacity:0;
+       }
+       to{
+           transform:translateY(0);
+           opacity:1;
+       }
+     }
+.btn{
+    background-color:blue;
+    color:white;
+    border: 4px solid black;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+   position: absolute;
+    left:40%;
+    top:50%;
+    opacity:0;
+    animation:slidefrombottom 1s ease-in-out;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+  
+}  
+#light:hover{
+  background-color: black;
+  color:white;
+}   
+#dark:hover{
+  background-color: white;
+  color:black;
+}
+     
