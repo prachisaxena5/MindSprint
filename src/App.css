@@ -17,7 +17,21 @@ body {
   min-width: 40px;
   min-height: 40px;
   z-index: 10;
+  animation: slideFromTop 1s ease-out;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay:0.5s;
 }
 .large-icon {
   font-size: 30px;
+}
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-100px); /* Starts above */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
